@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latesst
     steps:
       - name: Step 1
-        run: curl -X GET https://www.banxico.org.mx/SieAPIRest/service/v1/series/SF60653 -H "Bmx-Token: 9d40a11455d1b2d9b1b0bd2393f3940b0d04f20e3e3750bd71ff536f3d757d14"
-    
+        run: curl -X GET "https://www.banxico.org.mx/SieAPIRest/service/v1/series/SF60653" -H "Bmx-Token: 9d40a11455d1b2d9b1b0bd2393f3940b0d04f20e3e3750bd71ff536f3d757d14"
+        

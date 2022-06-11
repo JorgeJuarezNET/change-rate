@@ -4,7 +4,7 @@ on:
     - cron: '*/5 * * * *'
 jobs:
   test_schedule:
-    runs-on: ubuntu-latesst
+    runs-on: ubuntu-latest
     steps:
       - name: Step 1
         run: |
